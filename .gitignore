@@ -1,0 +1,10 @@
+# .gitignore
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.Rhistory
+.RData
+.DS_Store
+
+#Isolamento de Dados Grandes
+*.csv

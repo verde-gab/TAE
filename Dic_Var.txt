@@ -1,0 +1,87 @@
+================================================================================
+                        DICIONÁRIO DE DADOS
+              Projeto Integrador III — Ciência de Dados
+                         FATEC Rubens Lara
+================================================================================
+Integrantes: Gabriel Gomes, Giovanna Alcantara, Jorge Fernando
+Data: 10 de Março de 2026
+================================================================================
+
+
+INTRODUÇÃO
+----------
+Este dicionário de dados descreve as variáveis presentes no conjunto de dados
+de movimentação de cargas do Porto de Santos, disponibilizado pela Autoridade
+Portuária de Santos (APS). Cada registro corresponde a uma operação logística
+realizada em um terminal portuário, identificando o tipo de carga, o navio, o
+terminal, o período e as quantidades movimentadas.
+
+
+O objetivo deste documento é padronizar a compreensão das variáveis para fins
+de análise exploratória, modelagem e comunicação de resultados.
+
+
+================================================================================
+DICIONÁRIO DE DADOS
+================================================================================
+
+
++------------------+-----------+--------------------------------------------------+---------------------------+
+| Variável         | Tipo      | Descrição                                        | Valores                   |
++------------------+-----------+--------------------------------------------------+---------------------------+
+| TOTAL_TEU        | Inteiro   | Unidade de medida padrão para contêineres        | > 0                       |
+|                  |           | de 20 pés (Twenty-foot Equivalent Unit).         |                           |
++------------------+-----------+--------------------------------------------------+---------------------------+
+| NUMERO_VIAGEM    | Inteiro   | Identificador numérico de uma escala             | > 0                       |
+|                  |           | portuária, atribuído pelo sistema de origem.     |                           |
++------------------+-----------+--------------------------------------------------+---------------------------+
+| TIPO_NAVEGACAO   | Texto     | Classifica o tipo de navegação logística         | Longo Curso /             |
+|                  |           | realizada pelo navio.                            | Cabotagem                 |
++------------------+-----------+--------------------------------------------------+---------------------------+
+| MOVIMENTO        | Texto     | Caracteriza o tipo de movimentação               | Convencional /            |
+|                  |           | realizada pelo navio no porto.                   | Remoção / Transbordo      |
++------------------+-----------+--------------------------------------------------+---------------------------+
+| ANO              | Inteiro   | Identifica o ano de determinado registro.        | [2005–2026]               |
++------------------+-----------+--------------------------------------------------+---------------------------+
+| TERMINAIS        | Texto     | Classifica o terminal de operação onde           | Texto Livre               |
+|                  |           | foi realizado o processo logístico.              |                           |
++------------------+-----------+--------------------------------------------------+---------------------------+
+| TOTAL_TONELADAS  | Decimal   | Determina a quantidade em peso                   | > 0                       |
+|                  |           | de determinada carga movimentada.                |                           |
++------------------+-----------+--------------------------------------------------+---------------------------+
+| NATUREZA_CARGA   | Texto     | Classifica a natureza física da carga            | Texto Livre               |
+|                  |           | movimentada                                      |                           |
++------------------+-----------+--------------------------------------------------+---------------------------+
+| TOTAL_UNID       | Inteiro   | Quantidade de unidades físicas                   | > 0                       |
+|                  |           | movimentadas na operação.                        |                           |
++------------------+-----------+--------------------------------------------------+---------------------------+
+| MES              | Inteiro   | Exibe o mês registrado daquela                   | [01–12]                   |
+|                  |           | movimentação.                                    |                           |
++------------------+-----------+--------------------------------------------------+---------------------------+
+| CLASSENAVIO      | Texto     | Identifica o tipo de navio que realizou          | Texto Livre               |
+|                  |           | a movimentação                                   |                           |
++------------------+-----------+--------------------------------------------------+---------------------------+
+| SENTIDO          | Texto     | Determina qual o processo que a carga            | Embarque /                |
+|                  |           | teve no porto.                                   | Desembarque               |
++------------------+-----------+--------------------------------------------------+---------------------------+
+| TIPO_INSTALACAO  | Texto     | Classifica o tipo de instalação portuária        | Texto Livre               |
+|                  |           | onde ocorreu a movimentação.                     |                           |
++------------------+-----------+--------------------------------------------------+---------------------------+
+| BERCOS           | Texto     | Identifica o berço de atracação utilizado        | Texto Livre               |
+|                  |           | na operação.                                     |                           |
++------------------+-----------+--------------------------------------------------+---------------------------+
+| MERCADORIAS      | Texto     | Classifica exatamente a carga transportada       | Texto Livre               |
+|                  |           |                                                  |                           |
++------------------+-----------+--------------------------------------------------+---------------------------+
+| METRICA          | Decimal   | Coluna redundante de TOTAL_TONELADAS.            | > 0                       |
+|                  |           |                                                  |                           |
++------------------+-----------+--------------------------------------------------+---------------------------+
+| ANO_MES          | Texto     | Exibe a notação universal para data              | AAAA-MM-DD                |
+|                  |           | conforme ISO 8601.                               | (ex: 2013-05-01)          |
++------------------+-----------+--------------------------------------------------+---------------------------+
+
+
+================================================================================
+Fonte dos dados: APS — Autoridade Portuária de Santos
+                 https://www.portodesantos.com.br/
+================================================================================
