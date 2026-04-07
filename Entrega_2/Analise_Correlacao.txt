@@ -1,0 +1,710 @@
+==================================================
+ASSOCIACAO FACTOR x FACTOR (Qui-quadrado + V de Cramer)
+==================================================
+PAR: tipo_navegacao x movimento 
+  Chi2: 53810.2 | p-valor: 0 | V de Cramer: 0.2275 
+  Conclusao: Associacao fraca - rejeita H0 
+--------------------------------------------------
+PAR: tipo_navegacao x terminais 
+  Chi2: 89533.17 | p-valor: 0 | V de Cramer: 0.2934 
+  Conclusao: Associacao fraca - rejeita H0 
+--------------------------------------------------
+PAR: tipo_navegacao x natureza_carga 
+  Chi2: 18894.44 | p-valor: 0 | V de Cramer: 0.1348 
+  Conclusao: Associacao fraca - rejeita H0 
+--------------------------------------------------
+PAR: tipo_navegacao x mes 
+  Chi2: 55.343 | p-valor: 0 | V de Cramer: 0.0073 
+  Conclusao: Associacao fraca - rejeita H0 
+--------------------------------------------------
+PAR: tipo_navegacao x classenavio 
+  Chi2: 22946.92 | p-valor: 0 | V de Cramer: 0.1485 
+  Conclusao: Associacao fraca - rejeita H0 
+--------------------------------------------------
+PAR: tipo_navegacao x sentido 
+  Chi2: 2009.184 | p-valor: 0 | V de Cramer: 0.044 
+  Conclusao: Associacao fraca - rejeita H0 
+--------------------------------------------------
+PAR: tipo_navegacao x tipo_instalacao 
+  Chi2: 5700.534 | p-valor: 0 | V de Cramer: 0.074 
+  Conclusao: Associacao fraca - rejeita H0 
+--------------------------------------------------
+PAR: tipo_navegacao x bercos 
+  Chi2: 99607.91 | p-valor: 0 | V de Cramer: 0.3095 
+  Conclusao: Associacao forte - rejeita H0 
+--------------------------------------------------
+PAR: tipo_navegacao x mercadorias 
+  Chi2: 51047.13 | p-valor: 0 | V de Cramer: 0.2216 
+  Conclusao: Associacao fraca - rejeita H0 
+--------------------------------------------------
+PAR: movimento x terminais 
+  Chi2: 147185.7 | p-valor: 0 | V de Cramer: 0.1881 
+  Conclusao: Associacao fraca - rejeita H0 
+--------------------------------------------------
+PAR: movimento x natureza_carga 
+  Chi2: 78344.85 | p-valor: 0 | V de Cramer: 0.1585 
+  Conclusao: Associacao fraca - rejeita H0 
+--------------------------------------------------
+PAR: movimento x mes 
+  Chi2: 183.917 | p-valor: 0 | V de Cramer: 0.0066 
+  Conclusao: Associacao fraca - rejeita H0 
+--------------------------------------------------
+PAR: movimento x classenavio 
+  Chi2: 771515.4 | p-valor: 0 | V de Cramer: 0.4307 
+  Conclusao: Associacao forte - rejeita H0 
+--------------------------------------------------
+PAR: movimento x sentido 
+  Chi2: 1047306 | p-valor: 0 | V de Cramer: 0.5794 
+  Conclusao: Associacao forte - rejeita H0 
+--------------------------------------------------
+PAR: movimento x tipo_instalacao 
+  Chi2: 1026006 | p-valor: 0 | V de Cramer: 0.7024 
+  Conclusao: Associacao forte - rejeita H0 
+--------------------------------------------------
+PAR: movimento x bercos 
+  Chi2: 1118389 | p-valor: 0 | V de Cramer: 0.5185 
+  Conclusao: Associacao forte - rejeita H0 
+--------------------------------------------------
+PAR: movimento x mercadorias 
+  Chi2: 1238389 | p-valor: 0 | V de Cramer: 0.5456 
+  Conclusao: Associacao forte - rejeita H0 
+--------------------------------------------------
+PAR: terminais x natureza_carga 
+  Chi2: 2322824 | p-valor: 0 | V de Cramer: 0.8629 
+  Conclusao: Associacao forte - rejeita H0 
+--------------------------------------------------
+PAR: terminais x mes 
+  Chi2: 3194.168 | p-valor: 0 | V de Cramer: 0.0167 
+  Conclusao: Associacao fraca - rejeita H0 
+--------------------------------------------------
+PAR: terminais x classenavio 
+  Chi2: 2778128 | p-valor: 0 | V de Cramer: 0.4086 
+  Conclusao: Associacao forte - rejeita H0 
+--------------------------------------------------
+PAR: terminais x sentido 
+  Chi2: 126907.8 | p-valor: 0 | V de Cramer: 0.2017 
+  Conclusao: Associacao fraca - rejeita H0 
+--------------------------------------------------
+PAR: terminais x tipo_instalacao 
+  Chi2: 1071470 | p-valor: 0 | V de Cramer: 0.7177 
+  Conclusao: Associacao forte - rejeita H0 
+--------------------------------------------------
+PAR: terminais x bercos 
+  Chi2: 26017523 | p-valor: 0 | V de Cramer: 0.5978 
+  Conclusao: Associacao forte - rejeita H0 
+--------------------------------------------------
+PAR: terminais x mercadorias 
+  Chi2: 3548375 | p-valor: 0 | V de Cramer: 0.2274 
+  Conclusao: Associacao fraca - rejeita H0 
+--------------------------------------------------
+PAR: natureza_carga x mes 
+  Chi2: 355.465 | p-valor: 0 | V de Cramer: 0.0107 
+  Conclusao: Associacao fraca - rejeita H0 
+--------------------------------------------------
+PAR: natureza_carga x classenavio 
+  Chi2: 2240185 | p-valor: 0 | V de Cramer: 0.8474 
+  Conclusao: Associacao forte - rejeita H0 
+--------------------------------------------------
+PAR: natureza_carga x sentido 
+  Chi2: 37649.04 | p-valor: 0 | V de Cramer: 0.1099 
+  Conclusao: Associacao fraca - rejeita H0 
+--------------------------------------------------
+PAR: natureza_carga x tipo_instalacao 
+  Chi2: 25552.66 | p-valor: 0 | V de Cramer: 0.1108 
+  Conclusao: Associacao fraca - rejeita H0 
+--------------------------------------------------
+PAR: natureza_carga x bercos 
+  Chi2: 2281298 | p-valor: 0 | V de Cramer: 0.8551 
+  Conclusao: Associacao forte - rejeita H0 
+--------------------------------------------------
+PAR: natureza_carga x mercadorias 
+  Chi2: 1088433 | p-valor: 0 | V de Cramer: 0.5907 
+  Conclusao: Associacao forte - rejeita H0 
+--------------------------------------------------
+PAR: mes x classenavio 
+  Chi2: 869.5412 | p-valor: 0 | V de Cramer: 0.0087 
+  Conclusao: Associacao fraca - rejeita H0 
+--------------------------------------------------
+PAR: mes x sentido 
+  Chi2: 140.6275 | p-valor: 0 | V de Cramer: 0.0067 
+  Conclusao: Associacao fraca - rejeita H0 
+--------------------------------------------------
+PAR: mes x tipo_instalacao 
+  Chi2: 94.4806 | p-valor: 0 | V de Cramer: 0.0067 
+  Conclusao: Associacao fraca - rejeita H0 
+--------------------------------------------------
+PAR: mes x bercos 
+  Chi2: 7615.56 | p-valor: 0 | V de Cramer: 0.0258 
+  Conclusao: Associacao fraca - rejeita H0 
+--------------------------------------------------
+PAR: mes x mercadorias 
+  Chi2: 7322.789 | p-valor: 0 | V de Cramer: 0.0253 
+  Conclusao: Associacao fraca - rejeita H0 
+--------------------------------------------------
+PAR: classenavio x sentido 
+  Chi2: 740850.7 | p-valor: 0 | V de Cramer: 0.4873 
+  Conclusao: Associacao forte - rejeita H0 
+--------------------------------------------------
+PAR: classenavio x tipo_instalacao 
+  Chi2: 738503.6 | p-valor: 0 | V de Cramer: 0.5959 
+  Conclusao: Associacao forte - rejeita H0 
+--------------------------------------------------
+PAR: classenavio x bercos 
+  Chi2: 4100384 | p-valor: 0 | V de Cramer: 0.4964 
+  Conclusao: Associacao forte - rejeita H0 
+--------------------------------------------------
+PAR: classenavio x mercadorias 
+  Chi2: 1851416 | p-valor: 0 | V de Cramer: 0.3336 
+  Conclusao: Associacao forte - rejeita H0 
+--------------------------------------------------
+PAR: sentido x tipo_instalacao 
+  Chi2: 1040582 | p-valor: 0 | V de Cramer: 0.7073 
+  Conclusao: Associacao forte - rejeita H0 
+--------------------------------------------------
+PAR: sentido x bercos 
+  Chi2: 1094945 | p-valor: 0 | V de Cramer: 0.5924 
+  Conclusao: Associacao forte - rejeita H0 
+--------------------------------------------------
+PAR: sentido x mercadorias 
+  Chi2: 1187582 | p-valor: 0 | V de Cramer: 0.617 
+  Conclusao: Associacao forte - rejeita H0 
+--------------------------------------------------
+PAR: tipo_instalacao x bercos 
+  Chi2: 2079868 | p-valor: 0 | V de Cramer: 1 
+  Conclusao: Associacao forte - rejeita H0 
+--------------------------------------------------
+PAR: tipo_instalacao x mercadorias 
+  Chi2: 1054305 | p-valor: 0 | V de Cramer: 0.712 
+  Conclusao: Associacao forte - rejeita H0 
+--------------------------------------------------
+PAR: bercos x mercadorias 
+  Chi2: 4156831 | p-valor: 0 | V de Cramer: 0.2461 
+  Conclusao: Associacao fraca - rejeita H0 
+--------------------------------------------------
+==================================================
+ASSOCIACAO NUMERIC x NUMERIC (Spearman)
+==================================================
+PAR: total_teu x total_toneladas 
+  Spearman: 0.9215 | p-valor: 0 
+  Conclusao: Correlacao moderada/forte positiva 
+--------------------------------------------------
+PAR: total_teu x total_unid 
+  Spearman: 0.9849 | p-valor: 0 
+  Conclusao: Correlacao moderada/forte positiva 
+--------------------------------------------------
+PAR: total_teu x ano_mes 
+  Spearman: 0.0673 | p-valor: 0 
+  Conclusao: Correlacao muito fraca positiva 
+--------------------------------------------------
+PAR: total_toneladas x total_unid 
+  Spearman: 0.5778 | p-valor: 0 
+  Conclusao: Correlacao fraca positiva 
+--------------------------------------------------
+PAR: total_toneladas x ano_mes 
+  Spearman: 0.075 | p-valor: 0 
+  Conclusao: Correlacao muito fraca positiva 
+--------------------------------------------------
+PAR: total_unid x ano_mes 
+  Spearman: 0.0447 | p-valor: 0 
+  Conclusao: Correlacao muito fraca positiva 
+--------------------------------------------------
+==================================================
+ASSOCIACAO FACTOR x NUMERIC (Kruskal-Wallis + R2)
+==================================================
+PAR: tipo_navegacao x total_teu 
+  Kruskal H: 45.6947 | p-valor: 0 | R2: 1e-04 
+  Conclusao: Efeito fraca - rejeita H0 | R2: 1e-04 
+--------------------------------------------------
+PAR: tipo_navegacao x total_toneladas 
+  Kruskal H: 0.423 | p-valor: 0.5154 | R2: 0.001 
+  Conclusao: Sem efeito - nao rejeita H0 
+--------------------------------------------------
+PAR: tipo_navegacao x total_unid 
+  Kruskal H: 811.1539 | p-valor: 0 | R2: 2e-04 
+  Conclusao: Efeito fraca - rejeita H0 | R2: 2e-04 
+--------------------------------------------------
+PAR: tipo_navegacao x ano_mes 
+  Kruskal H: 5571.007 | p-valor: 0 | R2: 0.0057 
+  Conclusao: Efeito fraca - rejeita H0 | R2: 0.0057 
+--------------------------------------------------
+PAR: movimento x total_teu 
+  Kruskal H: 3014.901 | p-valor: 0 | R2: NA 
+  Conclusao: Efeito NA - rejeita H0 | R2: NA 
+--------------------------------------------------
+PAR: movimento x total_toneladas 
+  Kruskal H: 29954.86 | p-valor: 0 | R2: 0.038 
+  Conclusao: Efeito fraca - rejeita H0 | R2: 0.038 
+--------------------------------------------------
+PAR: movimento x total_unid 
+  Kruskal H: 3209.043 | p-valor: 0 | R2: 6e-04 
+  Conclusao: Efeito fraca - rejeita H0 | R2: 6e-04 
+--------------------------------------------------
+PAR: movimento x ano_mes 
+  Kruskal H: 34357.59 | p-valor: 0 | R2: 0.0338 
+  Conclusao: Efeito fraca - rejeita H0 | R2: 0.0338 
+--------------------------------------------------
+PAR: terminais x total_teu 
+  Kruskal H: 11090.27 | p-valor: 0 | R2: NA 
+  Conclusao: Efeito NA - rejeita H0 | R2: NA 
+--------------------------------------------------
+PAR: terminais x total_toneladas 
+  Kruskal H: 175142.8 | p-valor: 0 | R2: 0.6196 
+  Conclusao: Efeito forte - rejeita H0 | R2: 0.6196 
+--------------------------------------------------
+PAR: terminais x total_unid 
+  Kruskal H: 207430.7 | p-valor: 0 | R2: 0.1259 
+  Conclusao: Efeito fraca - rejeita H0 | R2: 0.1259 
+--------------------------------------------------
+PAR: terminais x ano_mes 
+  Kruskal H: 390274.3 | p-valor: 0 | R2: 0.3796 
+  Conclusao: Efeito forte - rejeita H0 | R2: 0.3796 
+--------------------------------------------------
+PAR: natureza_carga x total_teu 
+  Ignorado — observacoes no mesmo grupo ou sem variancia
+--------------------------------------------------
+PAR: natureza_carga x total_toneladas 
+  Kruskal H: 171602.9 | p-valor: 0 | R2: 0.551 
+  Conclusao: Efeito forte - rejeita H0 | R2: 0.551 
+--------------------------------------------------
+PAR: natureza_carga x total_unid 
+  Kruskal H: 231719.2 | p-valor: 0 | R2: 0.0288 
+  Conclusao: Efeito fraca - rejeita H0 | R2: 0.0288 
+--------------------------------------------------
+PAR: natureza_carga x ano_mes 
+  Kruskal H: 2111.317 | p-valor: 0 | R2: 0.002 
+  Conclusao: Efeito fraca - rejeita H0 | R2: 0.002 
+--------------------------------------------------
+PAR: mes x total_teu 
+  Kruskal H: 137.142 | p-valor: 0 | R2: 0 
+  Conclusao: Efeito fraca - rejeita H0 | R2: 0 
+--------------------------------------------------
+PAR: mes x total_toneladas 
+  Kruskal H: 243.0035 | p-valor: 0 | R2: 4e-04 
+  Conclusao: Efeito fraca - rejeita H0 | R2: 4e-04 
+--------------------------------------------------
+PAR: mes x total_unid 
+  Kruskal H: 33.9899 | p-valor: 4e-04 | R2: 1e-04 
+  Conclusao: Efeito fraca - rejeita H0 | R2: 1e-04 
+--------------------------------------------------
+PAR: mes x ano_mes 
+  Kruskal H: 1185.424 | p-valor: 0 | R2: 0.0011 
+  Conclusao: Efeito fraca - rejeita H0 | R2: 0.0011 
+--------------------------------------------------
+PAR: classenavio x total_teu 
+  Kruskal H: 896.1694 | p-valor: 0 | R2: NA 
+  Conclusao: Efeito NA - rejeita H0 | R2: NA 
+--------------------------------------------------
+PAR: classenavio x total_toneladas 
+  Kruskal H: 164992 | p-valor: 0 | R2: 0.5096 
+  Conclusao: Efeito forte - rejeita H0 | R2: 0.5096 
+--------------------------------------------------
+PAR: classenavio x total_unid 
+  Kruskal H: 175628 | p-valor: 0 | R2: 0.0224 
+  Conclusao: Efeito fraca - rejeita H0 | R2: 0.0224 
+--------------------------------------------------
+PAR: classenavio x ano_mes 
+  Kruskal H: 8473.547 | p-valor: 0 | R2: 0.0083 
+  Conclusao: Efeito fraca - rejeita H0 | R2: 0.0083 
+--------------------------------------------------
+PAR: sentido x total_teu 
+  Kruskal H: 3825.221 | p-valor: 0 | R2: NA 
+  Conclusao: Efeito NA - rejeita H0 | R2: NA 
+--------------------------------------------------
+PAR: sentido x total_toneladas 
+  Kruskal H: 14492.93 | p-valor: 0 | R2: 0.0283 
+  Conclusao: Efeito fraca - rejeita H0 | R2: 0.0283 
+--------------------------------------------------
+PAR: sentido x total_unid 
+  Kruskal H: 6072.327 | p-valor: 0 | R2: 0.001 
+  Conclusao: Efeito fraca - rejeita H0 | R2: 0.001 
+--------------------------------------------------
+PAR: sentido x ano_mes 
+  Kruskal H: 4237.022 | p-valor: 0 | R2: 0.0042 
+  Conclusao: Efeito fraca - rejeita H0 | R2: 0.0042 
+--------------------------------------------------
+PAR: tipo_instalacao x total_teu 
+  Kruskal H: 123.9308 | p-valor: 0 | R2: NA 
+  Conclusao: Efeito NA - rejeita H0 | R2: NA 
+--------------------------------------------------
+PAR: tipo_instalacao x total_toneladas 
+  Kruskal H: 2616.927 | p-valor: 0 | R2: 0.0179 
+  Conclusao: Efeito fraca - rejeita H0 | R2: 0.0179 
+--------------------------------------------------
+PAR: tipo_instalacao x total_unid 
+  Kruskal H: 2572.267 | p-valor: 0 | R2: 1e-04 
+  Conclusao: Efeito fraca - rejeita H0 | R2: 1e-04 
+--------------------------------------------------
+PAR: tipo_instalacao x ano_mes 
+  Kruskal H: 79292.07 | p-valor: 0 | R2: 0.0761 
+  Conclusao: Efeito fraca - rejeita H0 | R2: 0.0761 
+--------------------------------------------------
+PAR: bercos x total_teu 
+  Kruskal H: 4358.816 | p-valor: 0 | R2: NA 
+  Conclusao: Efeito NA - rejeita H0 | R2: NA 
+--------------------------------------------------
+PAR: bercos x total_toneladas 
+  Kruskal H: 174204 | p-valor: 0 | R2: 0.615 
+  Conclusao: Efeito forte - rejeita H0 | R2: 0.615 
+--------------------------------------------------
+PAR: bercos x total_unid 
+  Kruskal H: 198785.6 | p-valor: 0 | R2: 0.0945 
+  Conclusao: Efeito fraca - rejeita H0 | R2: 0.0945 
+--------------------------------------------------
+PAR: bercos x ano_mes 
+  Kruskal H: 409793.5 | p-valor: 0 | R2: 0.3952 
+  Conclusao: Efeito forte - rejeita H0 | R2: 0.3952 
+--------------------------------------------------
+PAR: mercadorias x total_teu 
+  Kruskal H: 235445.4 | p-valor: 0 | R2: NA 
+  Conclusao: Efeito NA - rejeita H0 | R2: NA 
+--------------------------------------------------
+PAR: mercadorias x total_toneladas 
+  Kruskal H: 213166.1 | p-valor: 0 | R2: 0.4107 
+  Conclusao: Efeito forte - rejeita H0 | R2: 0.4107 
+--------------------------------------------------
+PAR: mercadorias x total_unid 
+  Kruskal H: 274242.9 | p-valor: 0 | R2: 0.0175 
+  Conclusao: Efeito fraca - rejeita H0 | R2: 0.0175 
+--------------------------------------------------
+PAR: mercadorias x ano_mes 
+  Kruskal H: 33513.63 | p-valor: 0 | R2: 0.033 
+  Conclusao: Efeito fraca - rejeita H0 | R2: 0.033 
+--------------------------------------------------
+========================================
+BOXPLOT: total_teu 
+----------------------------------------
+========================================
+BOXPLOT: numero_viagem 
+----------------------------------------
+========================================
+BOXPLOT: total_toneladas 
+----------------------------------------
+========================================
+BOXPLOT: total_unid 
+----------------------------------------
+========================================
+BOXPLOT: metrica 
+----------------------------------------
+========================================
+BARPLOT: tipo_navegacao 
+----------------------------------------
+========================================
+BARPLOT: movimento 
+----------------------------------------
+========================================
+BARPLOT: ano 
+----------------------------------------
+========================================
+BARPLOT: terminais 
+----------------------------------------
+========================================
+BARPLOT: natureza_carga 
+----------------------------------------
+========================================
+BARPLOT: mes 
+----------------------------------------
+========================================
+BARPLOT: classenavio 
+----------------------------------------
+========================================
+BARPLOT: sentido 
+----------------------------------------
+========================================
+BARPLOT: tipo_instalacao 
+----------------------------------------
+========================================
+BARPLOT: bercos 
+----------------------------------------
+========================================
+BARPLOT: mercadorias 
+----------------------------------------
+========================================
+SERIE TEMPORAL: ano_mes 
+----------------------------------------
+ESTRUTURA DO DATASET
+Linhas: 1039934  | Colunas: 17 
+
+PRIMEIRAS/ULTIMAS LINHAS E TIPO DE VARIAVEL
+COLUNA: total_teu 
+CLASSE: integer 
+PRIMEIROS 10:
+ [1] 130  49  19  16 598  21 323 112  13   6
+ULTIMOS 10:
+ [1] NA NA NA NA NA NA NA NA NA NA
+------------------------------
+COLUNA: numero_viagem 
+CLASSE: integer 
+PRIMEIROS 10:
+ [1] 1904 2614 2210 2385 2463 2460 3169 3141 3153 2745
+ULTIMOS 10:
+ [1] 1 1 1 1 1 1 1 1 1 1
+------------------------------
+COLUNA: tipo_navegacao 
+CLASSE: factor 
+PRIMEIROS 10:
+ [1] longo_curso longo_curso longo_curso longo_curso longo_curso longo_curso longo_curso longo_curso longo_curso longo_curso
+Levels: cabotagem longo_curso
+ULTIMOS 10:
+ [1] cabotagem cabotagem cabotagem cabotagem cabotagem cabotagem cabotagem cabotagem cabotagem cabotagem
+Levels: cabotagem longo_curso
+------------------------------
+COLUNA: movimento 
+CLASSE: factor 
+PRIMEIROS 10:
+ [1] convencional convencional convencional remocao      convencional convencional convencional convencional convencional convencional
+Levels: contrabordo convencional malogro remocao transbordo
+ULTIMOS 10:
+ [1] contrabordo contrabordo contrabordo contrabordo contrabordo contrabordo contrabordo contrabordo contrabordo contrabordo
+Levels: contrabordo convencional malogro remocao transbordo
+------------------------------
+COLUNA: ano 
+CLASSE: factor 
+PRIMEIROS 10:
+ [1] 2013 2013 2013 2013 2013 2013 2013 2013 2013 2013
+Levels: 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025
+ULTIMOS 10:
+ [1] 2011 2011 2011 2014 2015 2018 2020 2024 2024 2024
+Levels: 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025
+------------------------------
+COLUNA: terminais 
+CLASSE: factor 
+PRIMEIROS 10:
+ [1] ecoporto      santos_brasil santos_brasil santos_brasil santos_brasil santos_brasil ecoporto      santos_brasil santos_brasil santos_brasil
+71 Levels: act_(arm_38) adm adonai ageo ageo_leste ageo_norte_-_copape bandeirantes bandeirantes-deicmar bracell bracell_(arm_15) ... vopak_(ilha)
+ULTIMOS 10:
+ [1] outros outros outros outros outros outros outros outros outros outros
+71 Levels: act_(arm_38) adm adonai ageo ageo_leste ageo_norte_-_copape bandeirantes bandeirantes-deicmar bracell bracell_(arm_15) ... vopak_(ilha)
+------------------------------
+COLUNA: total_toneladas 
+CLASSE: numeric 
+PRIMEIROS 10:
+ [1] 2210.139  244.590  255.179   33.410 1171.472  348.130 3511.280 1989.701  288.407  129.270
+ULTIMOS 10:
+ [1] 30904 34025 25966 35507 33234 28975 33848 28523 26432 28902
+------------------------------
+COLUNA: natureza_carga 
+CLASSE: factor 
+PRIMEIROS 10:
+ [1] carga_conteinerizada carga_conteinerizada carga_conteinerizada carga_conteinerizada carga_conteinerizada carga_conteinerizada
+ [7] carga_conteinerizada carga_conteinerizada carga_conteinerizada carga_conteinerizada
+Levels: carga_conteinerizada carga_geral granel_liquido granel_solido
+ULTIMOS 10:
+ [1] granel_liquido granel_liquido granel_liquido granel_liquido granel_liquido granel_liquido granel_liquido granel_liquido granel_liquido
+[10] granel_liquido
+Levels: carga_conteinerizada carga_geral granel_liquido granel_solido
+------------------------------
+COLUNA: total_unid 
+CLASSE: integer 
+PRIMEIROS 10:
+ [1]  83  25  15   8 299  15 166  90  12   6
+ULTIMOS 10:
+ [1] 0 0 0 0 0 0 0 0 0 0
+------------------------------
+COLUNA: mes 
+CLASSE: factor 
+PRIMEIROS 10:
+ [1] 5 6 7 7 6 6 8 8 8 8
+Levels: 1 10 11 12 2 3 4 5 6 7 8 9
+ULTIMOS 10:
+ [1] 5  6  10 8  9  8  11 1  2  4 
+Levels: 1 10 11 12 2 3 4 5 6 7 8 9
+------------------------------
+COLUNA: classenavio 
+CLASSE: factor 
+PRIMEIROS 10:
+ [1] porta-containers porta-containers porta-containers porta-containers porta-containers porta-containers porta-containers porta-containers
+ [9] porta-containers porta-containers
+17 Levels: balsa barcaca cargueiro_comum chata draga embarcacao_de_apoio frigorifico gas_liquefeito graneleiro outros ... tanque
+ULTIMOS 10:
+ [1] outros outros outros outros outros outros outros outros outros outros
+17 Levels: balsa barcaca cargueiro_comum chata draga embarcacao_de_apoio frigorifico gas_liquefeito graneleiro outros ... tanque
+------------------------------
+COLUNA: sentido 
+CLASSE: factor 
+PRIMEIROS 10:
+ [1] embarque    desembarque desembarque desembarque embarque    embarque    desembarque desembarque desembarque embarque   
+Levels: descarga desembarque embarque movimento_a_bordo
+ULTIMOS 10:
+ [1] descarga descarga descarga descarga descarga descarga descarga descarga descarga descarga
+Levels: descarga desembarque embarque movimento_a_bordo
+------------------------------
+COLUNA: tipo_instalacao 
+CLASSE: factor 
+PRIMEIROS 10:
+ [1] porto_organizado porto_organizado porto_organizado porto_organizado porto_organizado porto_organizado porto_organizado porto_organizado
+ [9] porto_organizado porto_organizado
+Levels: outros porto_organizado tup
+ULTIMOS 10:
+ [1] outros outros outros outros outros outros outros outros outros outros
+Levels: outros porto_organizado tup
+------------------------------
+COLUNA: bercos 
+CLASSE: factor 
+PRIMEIROS 10:
+ [1] ecop_2 sbr_1  sbr_1  sbr_1  sbr_2  sbr_2  ecop_3 sbr_2  sbr_1  sbr_3 
+73 Levels: abastecimento ageo_1 ageo_sp al_01 al_02 al_03 al_04 ao_largo arm_10 arm_11 arm_12 arm_12a arm_13/14 arm_15 arm_16/17 ... usiminas_5
+ULTIMOS 10:
+ [1] abastecimento abastecimento abastecimento abastecimento abastecimento abastecimento abastecimento abastecimento abastecimento abastecimento
+73 Levels: abastecimento ageo_1 ageo_sp al_01 al_02 al_03 al_04 ao_largo arm_10 arm_11 arm_12 arm_12a arm_13/14 arm_15 arm_16/17 ... usiminas_5
+------------------------------
+COLUNA: mercadorias 
+CLASSE: factor 
+PRIMEIROS 10:
+ [1] outras_mercadorias                     outras_mercadorias                     produtos_diversos_da_industria_quimica
+ [4] sem_cargas                             sem_cargas                             produtos_quimicos_organicos           
+ [7] outras_mercadorias                     produtos_quimicos_organicos            produtos_siderurgicos                 
+[10] nafta                                 
+67 Levels: acessorios_de_veiculos_automoveis acucar aditivos algodao amonia animais_vivos biodiesel blindados ... veiculos_automoveis_(usos_especiais)
+ULTIMOS 10:
+ [1] bunker_(o.combustivel) bunker_(o.combustivel) bunker_(o.combustivel) bunker_(o.combustivel) bunker_(o.combustivel) bunker_(o.combustivel)
+ [7] bunker_(o.combustivel) bunker_(o.combustivel) bunker_(o.combustivel) bunker_(o.combustivel)
+67 Levels: acessorios_de_veiculos_automoveis acucar aditivos algodao amonia animais_vivos biodiesel blindados ... veiculos_automoveis_(usos_especiais)
+------------------------------
+COLUNA: metrica 
+CLASSE: numeric 
+PRIMEIROS 10:
+ [1] 2210.139  244.590  255.179   33.410 1171.472  348.130 3511.280 1989.701  288.407  129.270
+ULTIMOS 10:
+ [1] 30904 34025 25966 35507 33234 28975 33848 28523 26432 28902
+------------------------------
+COLUNA: ano_mes 
+CLASSE: Date 
+PRIMEIROS 10:
+ [1] "2013-05-01" "2013-06-01" "2013-07-01" "2013-07-01" "2013-06-01" "2013-06-01" "2013-08-01" "2013-08-01" "2013-08-01" "2013-08-01"
+ULTIMOS 10:
+ [1] "2011-05-01" "2011-06-01" "2011-10-01" "2014-08-01" "2015-09-01" "2018-08-01" "2020-11-01" "2024-01-01" "2024-02-01" "2024-04-01"
+------------------------------
+
+RESUMO ESTATISTICO
+           coluna min      q1 mediana      media        q3     max   variancia desvio_padrao
+1       total_teu   1    3.00      11   81.35503   50.0000    5445    45326.09      212.8992
+2   numero_viagem   1 1368.00    2715 2770.44751 4136.0000    6227  2677311.80     1636.2493
+3 total_toneladas   0   44.12     183 2378.77567  869.7787  397286 67508361.15     8216.3472
+4      total_unid   0    2.00       7  346.42167   32.0000 1461627 80499915.48     8972.1745
+5         metrica   0   44.12     183 2378.77567  869.7787  397286 67508361.15     8216.3472
+========================================
+
+FREQUENCIA DE CATEGORIAS (FACTOR)
+========================================
+COLUNA: tipo_navegacao 
+----------------------------------------
+    categoria frequencia
+1   cabotagem     159556
+2 longo_curso     880378
+========================================
+COLUNA: movimento 
+----------------------------------------
+     categoria frequencia
+1  contrabordo       1002
+2 convencional     708319
+3      malogro        416
+4      remocao     103680
+5   transbordo     226517
+========================================
+COLUNA: ano 
+----------------------------------------
+   categoria frequencia
+1       2005      52614
+2       2006      50271
+3       2007      44307
+4       2008      47763
+5       2009      44419
+6       2010      46297
+7       2011      51134
+8       2012      49577
+9       2013      45785
+10      2014      47642
+========================================
+COLUNA: terminais 
+----------------------------------------
+              categoria frequencia
+1          act_(arm_38)        803
+2                   adm       2269
+3                adonai       1259
+4                  ageo       4535
+5            ageo_leste        799
+6   ageo_norte_-_copape       2284
+7          bandeirantes       3101
+8  bandeirantes-deicmar        170
+9               bracell        361
+10     bracell_(arm_15)         65
+========================================
+COLUNA: natureza_carga 
+----------------------------------------
+             categoria frequencia
+1 carga_conteinerizada     926297
+2          carga_geral      38650
+3       granel_liquido      39614
+4        granel_solido      35373
+========================================
+COLUNA: mes 
+----------------------------------------
+   categoria frequencia
+1          1      83267
+2         10      89650
+3         11      83968
+4         12      84807
+5          2      79019
+6          3      87788
+7          4      85727
+8          5      90180
+9          6      88657
+10         7      91547
+========================================
+COLUNA: classenavio 
+----------------------------------------
+             categoria frequencia
+1                balsa          5
+2              barcaca          7
+3      cargueiro_comum      20359
+4                chata          4
+5                draga          1
+6  embarcacao_de_apoio        613
+7          frigorifico         27
+8       gas_liquefeito       1076
+9           graneleiro      39189
+10              outros       1414
+========================================
+COLUNA: sentido 
+----------------------------------------
+          categoria frequencia
+1          descarga        988
+2       desembarque     496409
+3          embarque     540242
+4 movimento_a_bordo       2295
+========================================
+COLUNA: tipo_instalacao 
+----------------------------------------
+         categoria frequencia
+1           outros        988
+2 porto_organizado     915878
+3              tup     123068
+========================================
+COLUNA: bercos 
+----------------------------------------
+       categoria frequencia
+1  abastecimento        988
+2         ageo_1       1564
+3        ageo_sp        254
+4          al_01       4065
+5          al_02       3899
+6          al_03       6045
+7          al_04       6036
+8       ao_largo          2
+9         arm_10         64
+10        arm_11        144
+========================================
+COLUNA: mercadorias 
+----------------------------------------
+                           categoria frequencia
+1  acessorios_de_veiculos_automoveis        379
+2                             acucar      27838
+3                           aditivos          5
+4                            algodao       9782
+5                             amonia        495
+6                      animais_vivos       1406
+7                          biodiesel         30
+8                          blindados        158
+9                    bunker_(diesel)        494
+10            bunker_(o.combustivel)        494
+========================================

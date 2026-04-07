@@ -2,8 +2,8 @@ services:
   jupyter-tae:
     image: jupyter/datascience-notebook:latest
     container_name: tae_environment
+    restart: unless-stopped
     ports:
-      # Mapeamento: <Porta_Host>:<Porta_Contêiner>
       - "8889:8888"
     volumes:
       - .:/home/jovyan/work
